@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{  
+    padding-top: 10px;
+    background-color: #032850;
+    font-family: sans-serif;  
+    font-size: 2.1em !important;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.row{
+    padding: 0px 20px;
+}
+
+.jumbotron{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    background-image: linear-gradient(90deg, #eaf5ff 25%, #ffffff 25%, #ffffff 50%, #eaf5ff 50%, #eaf5ff 75%, #ffffff 75%, #ffffff 100%);
+}
+
+p{
+    font-size:1.4em !important;
+}
+
+.heading{
+    padding-bottom: 30px;
+}
+
+h1, h3{
+    font-family: sans-serif;
+}
+
+h1{
+    color:#032850 !important;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+h3{
+    color:#ffffff !important; 
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: #032850;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+ul{
+    line-height:2.1em;
+    list-style: none;
+}
+
+strong{
+    color: #032850;
+}
+
+blockquote{
+    background-color: #fff;
+    border-color:#FCBF49;
+    border-radius: 20px;
+    margin: 50px 0px 50px 0px;
+    box-shadow: 3px 4px 9px 3px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 3px 4px 9px 3px rgba(0,0,0,0.10);
+    -moz-box-shadow: 3px 4px 9px 3px rgba(0,0,0,0.10);
+}
+
+.text-shadowed{
+    text-shadow: 2px 2px #ddd;
+}
+
+.wiki-wrap{
+    margin:40px;
+    font-size: 1em;
+}
+
+footer{
+    background-color: #032850;
+    font-size:1.5em !important;
+    min-height: 250px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    color: #fff;
+    transition: all .2s ease-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#FCBF49;
+}
+
+.fixed-bg {
+    background-image: url("https://www.guinnessworldrecords.com/Images/Diego-Maradona-playing-football-1982_tcm25-640178.jpg");
+    min-height: 650px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.scroll-button{
+    padding: 5px 20px;
+    border: 3px solid #032850;
+    border-radius: 5px;
+    color: #032850;
+    font-size: 40px;
+    transition: all .2s ease-out;
+    display: inline-block;
+}
+.scroll-button:hover{
+    border: 3px solid #FCBF49;
+    transform: translateY(10px);
+}
+
+.credit{
+    color: #000;
+}
